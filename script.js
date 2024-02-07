@@ -97,7 +97,7 @@ choiceOptions.forEach((button, index) => {
 
         disableChoiceOptions()
 
-        playerDisplay.src = computerDisplay.src = "/images/initial-position.png"
+        playerDisplay.src = computerDisplay.src = "images/initial-position.png"
         textResult.textContent = "Wait..."
 
         playerDisplay.classList.remove('choice-clicked')
@@ -124,7 +124,7 @@ choiceOptions.forEach((button, index) => {
 
             // Set the player image to the image that corresponds of the clicked button 
             playerDisplay.src = imageSrc 
-            if (imageSrc !== "/images/initial-position.png") {
+            if (imageSrc !== "images/initial-position.png") {
                 playerDisplay.classList.add('choice-clicked')
             }
     
@@ -139,7 +139,7 @@ choiceOptions.forEach((button, index) => {
             ];
             // Set the computer image to a random option from the array
             computerDisplay.src = computerImages[randomNumber];
-            if (computerImages !== "/images/initial-position.png") {
+            if (computerImages !== "images/initial-position.png") {
                 computerDisplay.classList.add('computer-choice')
             }
     
@@ -224,7 +224,7 @@ playAgainBtn.addEventListener('click', () => {
     gameBoard.style.display = 'none'
 
     enableChoiceOptions()
-    playerDisplay.src = computerDisplay.src = "/images/initial-position.png"
+    playerDisplay.src = computerDisplay.src = "images/initial-position.png"
     playerDisplay.classList.remove('choice-clicked')
     computerDisplay.classList.remove('computer-choice')
     playAgainBtn.style.display = 'none'
