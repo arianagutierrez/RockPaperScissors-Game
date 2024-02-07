@@ -35,7 +35,7 @@ body, html {
 }
 
 .game-start {
-    background: url("/images/startGame/bg_gameStart.jpg") center/cover no-repeat;
+    background: center/cover no-repeat;
     min-height: 100vh;
     @include flex-column-center();
     justify-content: space-evenly;
@@ -112,7 +112,7 @@ body, html {
         width: 100%;
         padding: 2.5rem 1rem 1.25rem;
         color: var(--clr-black);
-        background: url("/images/bg_gameBoard.jpg") center/cover no-repeat;
+        background: center/cover no-repeat;
         @include flex-column-center();
         justify-content: space-between;
         .players-moves {
