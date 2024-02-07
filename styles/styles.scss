@@ -35,7 +35,7 @@ body, html {
 }
 
 .game-start {
-    background: url(/images/startGame/bg_gameStart.jpg) center/cover no-repeat;
+    background: url(images/startGame/bg_gameStart.jpg) center/cover no-repeat;
     min-height: 100vh;
     @include flex-column-center();
     justify-content: space-evenly;
