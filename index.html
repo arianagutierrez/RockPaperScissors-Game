@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/icon-game.png" type="image/x-icon">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <audio id="sound-click" src="images/sound_click.mp3"></audio>
+    
+    <div class="game-start">
+        <h1 class="title-game">rock paper scissors</h1>
+        <div class="icons-game">
+            <img src="/images/startGame/rock.png" alt="rock" class="image-icon">
+            <img src="/images/startGame/paper.png" alt="paper" class="image-icon">
+            <img src="/images/startGame/scissors.png" alt="scissors" class="image-icon">
+        </div>
+        <p class="game-info">
+            Try to beat the computer! <br/>
+            The first to reach <br/> <span>five points</span> WINS!
+        </p>
+        <button id="start-btn">START</button>
+    </div>
+
+    <main class="game-board">
+        <header>
+            <h1 class="title"></h1>
+        </header>
+        
+        <div class="game-content">
+            <div class="players-moves">
+                <span id="player">
+                    <img src="/images/initial-position.png" alt="initial-position" />
+                </span>
+                <span id="computer">
+                    <img src="/images/initial-position.png" alt="initial-position" />
+                </span>
+            </div>
+
+            <div class="result">
+                <div id="score-display">
+                    <p id="score">0 - 0</p>
+                    <span id="text-result"></span>
+                </div>
+
+                <button id="play-again">play again</button>
+            </div>
+
+            <div class="game-choices"></div>
+        </div>
+
+        <footer>
+            <p>
+                Copyright ©
+                <span class="current-year"></span>
+                Ariana Gutierrez
+            </p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

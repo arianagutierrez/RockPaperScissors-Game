@@ -1,0 +1,129 @@
+@media screen and (max-width: 600px) {
+    .game-start .icons-game {
+        gap: 2rem;
+        .image-icon{
+            width: 130px;
+            height: 130px;
+        }
+    }
+
+    .game-board .game-content {
+        .game-choices {
+            gap: 2.5rem;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .game-start {
+        .title-game {
+            font-size: 3.5rem;
+        }
+
+        .icons-game {
+            gap: 1.75rem;
+            .image-icon{
+                width: 110px;
+                height: 110px;
+            }
+        }
+    }
+    
+    .game-board .game-content {
+        .players-moves {
+            gap: 7rem;
+            img {
+                width: 100px;
+            }
+        }
+
+        .game-choices {
+            gap: 2.5rem;
+            .choice-option{
+                height: 82%;
+                .choice-img {
+                    width: 100px;
+                    height: 110px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .game-start .icons-game {
+        gap: 1.5rem;
+        .image-icon{
+            width: 90px;
+            height: 90px;
+        }
+    }
+    
+    .game-board .game-content {
+        .players-moves {
+            gap: 5rem;
+            img {
+                width: 90px;
+            }
+        }
+
+        .game-choices {
+            gap: 1.5rem;
+            .choice-option{
+                height: 75%;
+                .choice-img {
+                    width: 90px;
+                    height: 98px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .game-start {
+        .title-game {
+            font-size: 3rem;
+        }
+        .icons-game {
+            gap: 1rem;
+            .image-icon{
+                width: 80px;
+                height: 80px;
+            }
+        }
+        .game-info {
+            font-size: 1.75rem;
+        }
+    }
+    
+    .game-board {
+        header {
+            font-size: 1.25rem;
+        }
+
+        .game-content {
+            .players-moves {
+                gap: 4.25rem;
+                img {
+                    width: 80px;
+                }
+            }
+    
+            .game-choices {
+                gap: 1rem;
+                .choice-option{
+                    height: 70%;
+                    .choice-img {
+                        width: 80px;
+                        height: 82px;
+                    }
+                }
+            }
+        }
+
+        footer {
+            font-size: 1rem;
+        }
+    }
+}
