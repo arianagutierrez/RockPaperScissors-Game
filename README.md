@@ -1,3 +1,3 @@
-# Rock Paper Scissor Game
+# RockPaperScissor Game
 
 A replica of the [RPS game](). Build with JS, HTML and Sass.
